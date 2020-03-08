@@ -14,7 +14,7 @@ timezone: ''
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://tat306.github.io/hexo
-root: /
+root: hexo
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -99,5 +99,5 @@ theme: landscape
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/tat306/hexo.git
+  repo: git@github.com:tat306/hexo.git
   branch: master
